@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"github.com/InfoTCube/Seneca-the-Younger-API/entity"
-	"github.com/InfoTCube/Seneca-the-Younger-API/service"
+	"github.com/InfoTCube/Seneca-the-Younger-API/src/entity"
+	"github.com/InfoTCube/Seneca-the-Younger-API/src/service"
 	"github.com/gin-gonic/gin"
 )
 

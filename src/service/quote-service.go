@@ -1,6 +1,6 @@
 package service
 
-import "github.com/InfoTCube/Seneca-the-Younger-API/entity"
+import "github.com/InfoTCube/Seneca-the-Younger-API/src/entity"
 
 type QuoteService interface {
 	Add(entity.Quote) entity.Quote

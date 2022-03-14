@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/InfoTCube/Seneca-the-Younger-API/controller"
-	"github.com/InfoTCube/Seneca-the-Younger-API/service"
+	"github.com/InfoTCube/Seneca-the-Younger-API/src/controller"
+	"github.com/InfoTCube/Seneca-the-Younger-API/src/service"
 
 	"github.com/gin-gonic/gin"
 )
