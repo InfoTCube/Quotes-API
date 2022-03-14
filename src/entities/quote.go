@@ -1,4 +1,4 @@
-package quote
+package entities
 
 type Quote struct {
 	Quote    string `json:"quote"`

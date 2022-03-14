@@ -1,4 +1,4 @@
-package controller
+package controllers
 
 import (
 	"github.com/InfoTCube/Seneca-the-Younger-API/src/entity"

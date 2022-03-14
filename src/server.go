@@ -1,9 +1,6 @@
 package main
 
 import (
-	"github.com/InfoTCube/Seneca-the-Younger-API/src/controller"
-	"github.com/InfoTCube/Seneca-the-Younger-API/src/service"
-
 	"github.com/gin-gonic/gin"
 )
 
@@ -13,7 +10,9 @@ var (
 )
 
 func main() {
-	server := gin.Default()
+	server := gin.New()
+
+	server.Use(gin.Recovery())
 
 	server.GET("/quotes", func(ctx *gin.Context) {
 		ctx.JSON(200, quoteController.GetAll())
