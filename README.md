@@ -1,1 +1,1 @@
-# Seneca-the-Younger-API
+# Quotes API
